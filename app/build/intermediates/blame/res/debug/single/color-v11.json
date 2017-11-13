@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/edward_liao/.android/build-cache/5c7de8d67f58e5375a1c503bee159f51d6796b64/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/edward_liao/.android/build-cache/5c7de8d67f58e5375a1c503bee159f51d6796b64/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

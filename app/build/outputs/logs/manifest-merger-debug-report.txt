@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:5:5-28:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/5c7de8d67f58e5375a1c503bee159f51d6796b64/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/3acda6b5681ea527032be8bfa7c21eae2fef33ec/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/0e6bdc82ed41e434fc6bb137c261dddd071728b5/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/2a7ebe361540ccc94c656d2791d3ae5ff0dc99ea/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/8b6c2ec471819b3e4b251a514d7cf68a82982a07/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/a89d73f5a35855a0fd23a257b3fc9b7961040b99/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/d722ac9491777e5e3a29e42c65fb57fb308ccc81/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/d33ce412e908fdab2c7f1c4c205edf041759ff3f/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/4295d5abb7be5b3bcc40f7bfccd1cec79f4499bd/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/edward_liao/.android/build-cache/10ad9884ac947703fe204826f4e512e0f7c33e11/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:9:9-41
+	android:supportsRtl
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:11:9-35
+	android:roundIcon
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:10:9-40
+	android:allowBackup
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:7:9-35
+	android:icon
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:12:9-65
+	android:name
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:6:9-39
+activity#com.example.edward_liao.atm.MainActivity
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:13:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:17:27-74
+activity#com.example.edward_liao.atm.FunctionActivity
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:20:9-54
+	android:name
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:20:19-51
+activity#com.example.edward_liao.atm.Balance
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:21:9-45
+	android:name
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:21:19-42
+activity#com.example.edward_liao.atm.Deposit
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:22:9-45
+	android:name
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:22:19-42
+activity#com.example.edward_liao.atm.Withdraw
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:23:9-46
+	android:name
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:23:19-43
+activity#com.example.edward_liao.atm.Transfer
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:24:9-46
+	android:name
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:24:19-43
+activity#com.example.edward_liao.atm.Pay
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:25:9-41
+	android:name
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:25:19-38
+activity#com.example.edward_liao.atm.ChangePasswordActivity
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:26:9-60
+	android:name
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:26:19-57
+activity#com.example.edward_liao.atm.ForgotPasswordActivity
+ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:27:9-69
+	android:name
+		ADDED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml:27:19-57
+uses-sdk
+INJECTED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/5c7de8d67f58e5375a1c503bee159f51d6796b64/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/3acda6b5681ea527032be8bfa7c21eae2fef33ec/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/0e6bdc82ed41e434fc6bb137c261dddd071728b5/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/2a7ebe361540ccc94c656d2791d3ae5ff0dc99ea/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/8b6c2ec471819b3e4b251a514d7cf68a82982a07/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/a89d73f5a35855a0fd23a257b3fc9b7961040b99/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/d722ac9491777e5e3a29e42c65fb57fb308ccc81/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/d33ce412e908fdab2c7f1c4c205edf041759ff3f/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/4295d5abb7be5b3bcc40f7bfccd1cec79f4499bd/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/edward_liao/.android/build-cache/10ad9884ac947703fe204826f4e512e0f7c33e11/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/5c7de8d67f58e5375a1c503bee159f51d6796b64/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/edward_liao/Documents/Android Project/ATM/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/5c7de8d67f58e5375a1c503bee159f51d6796b64/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/3acda6b5681ea527032be8bfa7c21eae2fef33ec/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/0e6bdc82ed41e434fc6bb137c261dddd071728b5/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/2a7ebe361540ccc94c656d2791d3ae5ff0dc99ea/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/8b6c2ec471819b3e4b251a514d7cf68a82982a07/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/a89d73f5a35855a0fd23a257b3fc9b7961040b99/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/d722ac9491777e5e3a29e42c65fb57fb308ccc81/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/d33ce412e908fdab2c7f1c4c205edf041759ff3f/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/4295d5abb7be5b3bcc40f7bfccd1cec79f4499bd/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/5c7de8d67f58e5375a1c503bee159f51d6796b64/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/edward_liao/.android/build-cache/5c7de8d67f58e5375a1c503bee159f51d6796b64/output/AndroidManifest.xml:26:9-47

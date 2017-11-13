@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/edward_liao/Documents/Android Project/ATM/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/res/merged/debug/mipmap-mdpi/erro.png",
+        "source": "/Users/edward_liao/Documents/Android Project/ATM/app/src/main/res/mipmap-mdpi/erro.png"
+    },
+    {
+        "merged": "/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/edward_liao/Documents/Android Project/ATM/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/res/merged/debug/mipmap-mdpi/photo.png",
+        "source": "/Users/edward_liao/Documents/Android Project/ATM/app/src/main/res/mipmap-mdpi/photo.png"
+    },
+    {
+        "merged": "/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/res/merged/debug/mipmap-mdpi/atm.png",
+        "source": "/Users/edward_liao/Documents/Android Project/ATM/app/src/main/res/mipmap-mdpi/atm.png"
+    }
+]

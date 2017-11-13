@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">高科網路銀行ATM</string>
+
+    <string-array name="Bank">
+        <item>(004)台灣銀行</item>
+        <item>(005)土地銀行</item>
+        <item>(006)合作金庫</item>
+        <item>(007)第一銀行</item>
+        <item>(008)華南銀行</item>
+        <item>(009)彰化銀行</item>
+        <item>(010)華僑銀行</item>
+        <item>(011)上海商業儲蓄銀行</item>
+        <item>(012)台北富邦銀行</item>
+        <item>(013)國泰世華銀行</item>
+        <item>(016)高雄銀行</item>
+        <item>(017)兆豐商銀</item>
+        <item>(018)農業金庫</item>
+        <item>(021)花旗銀行</item>
+        <item>(024)運通銀行</item>
+        <item>(025)首都銀行</item>
+        <item>(039)荷蘭銀行</item>
+        <item>(040)中華開發</item>
+        <item>(048)王道銀行</item>
+        <item>(050)臺灣企銀</item>
+        <item>(051)台北商銀</item>
+        <item>(052)新竹商銀</item>
+        <item>(053)台中商銀</item>
+        <item>(700)中華郵政</item>
+    </string-array>
+
+
+    <string-array name="Payitem">
+        <item>台灣自來水公司</item>
+        <item>台灣電力公司</item>
+        <item>遠通電子(E-Tag)</item>
+        <item>停車費</item>
+        <item>罰單繳納</item>
+        <item>房屋稅</item>
+        <item>燃料稅</item>
+        <item>中華電信</item>
+        <item>遠傳電信</item>
+        <item>台灣大哥大</item>
+        <item>台灣之星</item>
+        <item>亞太電信</item>
+        <item>台鐵繳費</item>
+        <item>台灣高鐵</item>
+    </string-array>
+</resources>
+
+
