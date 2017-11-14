@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.app.Application;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -12,7 +13,10 @@ import android.widget.Button;
 
 public class FunctionActivity extends AppCompatActivity {
 
-    Button pay, balance, deposit, withdraw, transfer, changepassword, logout;
+    Button pay, balance, deposit, withdraw, transfer, changepassword, help,logout;
+
+    private final static String CALL = "android.intent.action.CALL";
+
 
 
     @Override
@@ -36,6 +40,7 @@ public class FunctionActivity extends AppCompatActivity {
     private void first() {
         pay = (Button) findViewById(R.id.button_pay);
         balance = (Button) findViewById(R.id.button_balance);
+        help = (Button)findViewById(R.id.button_help);
         deposit = (Button) findViewById(R.id.button_deposit);
         withdraw = (Button) findViewById(R.id.button_withdraw);
         transfer = (Button) findViewById(R.id.button_transfer);
@@ -120,6 +125,11 @@ public class FunctionActivity extends AppCompatActivity {
         finish();
         Intent changepassword = new Intent(this, ChangePasswordActivity.class);
         startActivity(changepassword);
+    }
+
+    public void setHelp(View view){
+        Intent call = new Intent(CALL, Uri.parse("tel:" + "076011000"));
+        startActivity(call);
     }
 
 

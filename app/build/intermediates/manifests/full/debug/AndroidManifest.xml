@@ -8,6 +8,9 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="26" />
 
+    <!-- 加入撥打電話權限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <meta-data
         android:name="android.support.VERSION"
         android:value="26.0.0-alpha1" />
@@ -15,10 +18,12 @@
     <application
         android:name="com.example.edward_liao.atm.GlobalVariable"
         android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@mipmap/atm"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/atm"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity android:name="com.example.edward_liao.atm.MainActivity" >
             <intent-filter>

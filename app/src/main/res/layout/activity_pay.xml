@@ -13,7 +13,8 @@
         android:layout_centerHorizontal="true"
         android:baselineAligned="false"
         android:orientation="vertical"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:id="@+id/linearLayout4">
 
         <TextView
             android:id="@+id/textView25"
@@ -112,7 +113,18 @@
                 android:layout_weight="1"
                 android:onClick="setClean_pay"
                 android:text="清除" />
+
         </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_alignEnd="@+id/linearLayout4"
+            android:layout_below="@+id/linearLayout4"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/pay" />
     </LinearLayout>
 
 </RelativeLayout>

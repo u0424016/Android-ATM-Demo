@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/question.png",
+        "source": "/Users/edward_liao/Documents/Android Project/ATM/app/src/main/res/mipmap-xxhdpi/question.png"
+    },
+    {
         "merged": "/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/photo.png",
         "source": "/Users/edward_liao/Documents/Android Project/ATM/app/src/main/res/mipmap-xxhdpi/photo.png"
     },
@@ -18,5 +22,9 @@
     {
         "merged": "/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
         "source": "/Users/edward_liao/Documents/Android Project/ATM/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/money.png",
+        "source": "/Users/edward_liao/Documents/Android Project/ATM/app/src/main/res/mipmap-xxhdpi/money.png"
     }
 ]

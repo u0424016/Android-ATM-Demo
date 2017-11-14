@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.edward_liao.atm">
 
+<!--加入撥打電話權限-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:name=".GlobalVariable"
         android:allowBackup="true"

@@ -139,6 +139,16 @@
                 android:onClick="setClean"
                 android:text="清除" />
         </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:layout_alignEnd="@+id/linearLayout4"
+            android:layout_below="@+id/linearLayout4"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/transfer" />
     </LinearLayout>
 
 </RelativeLayout>

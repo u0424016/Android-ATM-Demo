@@ -46,14 +46,11 @@ public class Withdraw extends AppCompatActivity {
 
     public void setYes(View view) {
 
-        GlobalVariable gv = (GlobalVariable) getApplicationContext();
-        money_withdraw = gv.getMoney_total();
-        enter = Integer.parseInt(money.getText().toString());
+        if(enter == 0){
 
-        if (enter > money_withdraw) {
             new AlertDialog.Builder(Withdraw.this)
                     .setTitle("錯誤")
-                    .setMessage("餘額不足。請重新輸入")
+                    .setMessage("輸入金額不能為空。請重新輸入")
                     .setIcon(R.mipmap.erro)
                     .setNegativeButton("確定",
                             new DialogInterface.OnClickListener() {
@@ -61,23 +58,45 @@ public class Withdraw extends AppCompatActivity {
                                 @Override
                                 public void onClick(DialogInterface dialog,
                                                     int which) {
-                                    money.setText("");
                                     // TODO Auto-generated method stub
                                 }
                             }).show();
 
-        } else {
+        }else {
 
-            money_withdraw = money_withdraw - enter;
-            gv.setMoney_total(money_withdraw);
-            enter = 0;
+            GlobalVariable gv = (GlobalVariable) getApplicationContext();
+            money_withdraw = gv.getMoney_total();
+            enter = Integer.parseInt(money.getText().toString());
 
-            finish();
-            Intent back = new Intent(this, FunctionActivity.class);
-            startActivity(back);
+            if (enter > money_withdraw) {
+                new AlertDialog.Builder(Withdraw.this)
+                        .setTitle("錯誤")
+                        .setMessage("餘額不足。請重新輸入")
+                        .setIcon(R.mipmap.erro)
+                        .setNegativeButton("確定",
+                                new DialogInterface.OnClickListener() {
+
+                                    @Override
+                                    public void onClick(DialogInterface dialog,
+                                                        int which) {
+                                        money.setText("");
+                                        // TODO Auto-generated method stub
+                                    }
+                                }).show();
+
+            } else {
+
+                money_withdraw = money_withdraw - enter;
+                gv.setMoney_total(money_withdraw);
+                enter = 0;
+
+                finish();
+                Intent back = new Intent(this, FunctionActivity.class);
+                startActivity(back);
+
+            }
 
         }
-
 
     }
 

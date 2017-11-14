@@ -1,4 +1,4 @@
-#Sun Nov 12 13:41:48 CST 2017
-base.0=/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3
+#Tue Nov 14 13:55:54 CST 2017
+base.0=/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/transforms/dexMerger/debug/3
 renamed.0=classes.dex
-file.0=/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex
+file.0=/Users/edward_liao/Documents/Android Project/ATM/app/build/intermediates/transforms/dexMerger/debug/3/classes.dex

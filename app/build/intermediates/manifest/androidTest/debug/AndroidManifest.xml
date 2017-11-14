@@ -13,7 +13,7 @@
         android:label="Tests for com.example.edward_liao.atm"
         android:targetPackage="com.example.edward_liao.atm" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

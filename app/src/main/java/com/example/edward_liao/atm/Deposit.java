@@ -1,5 +1,7 @@
 package com.example.edward_liao.atm;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -46,16 +48,36 @@ public class Deposit extends AppCompatActivity {
 
     public void setYes(View view) {
 
-        GlobalVariable gv = (GlobalVariable) getApplicationContext();
-        money_deposit = gv.getMoney_total();
-        enter = Integer.parseInt(money.getText().toString());
-        money_deposit = money_deposit + enter;
-        gv.setMoney_total(money_deposit);
-        enter = 0;
+        if(enter == 0){
 
-        finish();
-        Intent back = new Intent(this, FunctionActivity.class);
-        startActivity(back);
+            new AlertDialog.Builder(Deposit.this)
+                    .setTitle("錯誤")
+                    .setMessage("輸入金額不能為空。請重新輸入")
+                    .setIcon(R.mipmap.erro)
+                    .setNegativeButton("確定",
+                            new DialogInterface.OnClickListener() {
+
+                                @Override
+                                public void onClick(DialogInterface dialog,
+                                                    int which) {
+                                    // TODO Auto-generated method stub
+                                }
+                            }).show();
+
+        }else{
+            GlobalVariable gv = (GlobalVariable) getApplicationContext();
+            money_deposit = gv.getMoney_total();
+            enter = Integer.parseInt(money.getText().toString());
+            money_deposit = money_deposit + enter;
+            gv.setMoney_total(money_deposit);
+            enter = 0;
+
+            finish();
+            Intent back = new Intent(this, FunctionActivity.class);
+            startActivity(back);
+        }
+
+
 
     }
 

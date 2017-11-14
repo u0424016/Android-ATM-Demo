@@ -62,6 +62,20 @@ public class Pay extends AppCompatActivity {
 
         if (enter == 0) {
 
+            new AlertDialog.Builder(Pay.this)
+                    .setTitle("錯誤")
+                    .setMessage("輸入金額不能為空。請重新輸入")
+                    .setIcon(R.mipmap.erro)
+                    .setNegativeButton("確定",
+                            new DialogInterface.OnClickListener() {
+
+                                @Override
+                                public void onClick(DialogInterface dialog,
+                                                    int which) {
+                                    // TODO Auto-generated method stub
+                                }
+                            }).show();
+
         } else {
 
 
